@@ -1,7 +1,7 @@
-import { BrowserModule } from 'angular2/platform-browser';
-import { NgModule } from 'angular2/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
-import { AppComponent } from './backend.component';
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [

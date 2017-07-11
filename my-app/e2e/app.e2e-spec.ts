@@ -1,10 +1,10 @@
-import { MyAppPage } from './app.po';
+import { PrcnitPage } from './app.po';
 
-describe('my-app App', () => {
-  let page: MyAppPage;
+describe('prcnit App', () => {
+  let page: PrcnitPage;
 
   beforeEach(() => {
-    page = new MyAppPage();
+    page = new PrcnitPage();
   });
 
   it('should display welcome message', () => {

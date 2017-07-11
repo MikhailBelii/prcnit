@@ -1,8 +1,8 @@
+import {BACKEND} from './mock-backend';
 import {Injectable} from 'angular2/core';
-import {BACKEND} from './mock-backe';
 
 @Injectable()
-export class BackeService {
+export class BackService {
     getBackend() {
         return Promise.resolve(BACKEND);
     }
